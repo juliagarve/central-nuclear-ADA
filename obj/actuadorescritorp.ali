@@ -1,0 +1,127 @@
+V "GNAT Lib v2011"
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvvnvnnnvnnvnnvnnnnvnnnnnnnvnnnnnnnnnnnnnnnnvnnnnvnv1nnnnnnnnnv1+nn
+
+U actuadorescritorp%b	actuadorescritorp.adb	44d96338 NE OO PK IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U actuadorescritorp%s	actuadorescritorp.ads	6cfdc929 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W reactorp%s		reactorp.adb		reactorp.ali
+W sensorlectorp%s	sensorlectorp.adb	sensorlectorp.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D actuadorescritorp.ads	20221213010018 87bd0634
+D actuadorescritorp.adb	20221213010622 c364650c
+D ada.ads		20110428140902 3ffc8e18
+D a-calend.ads		20110428140858 343c83dd
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D reactorp.ads		20221205191854 6cfcb815
+D sensorlectorp.ads	20221213005348 3f7f360d
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-tpoben.ads		20110428140908 e8374469
+D s-tpobop.ads		20110428140908 5f548bb3
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 actuadorescritorp.ads
+12K9*ActuadorEscritorP 30l5 30e22 2|1b14 40l5 40t22
+13W19*ActuadorEscritor 29l8 29e24 2|2b21 38l8 38t24
+16U17 iniciar 2|3b17 11l11 11t18
+17Y13 escribir 17^22 17^42 2|13b13 30l11 30t19
+17p22 r(19|8W19) 2|18r17 27r13
+17p42 entrada(20|13W19)
+18U17 Timer 18=23 2|10r81 32b17 36r81 37l11 37t16
+18r23 event{10|40R9} 2|32b23
+20i7 dato{integer} 2|18r10 19r13
+21o7 nextTime{9|41O9} 2|9r10 10r71 29r10 29r27 35r10 35r20 36r71
+22r7 salidaJitterControl{10|40R9} 2|10r50 36r50
+24o7 salidaPeriodo{9|46O9} 2|9r26 35r29
+25o7 jitter{9|46O9} 2|29r20
+26b7 flagPuertaAbierta{boolean} 2|8r10 20r16 21r16 24r16 25r16
+27b7 flagEscribir{boolean} 2|7r10 14r15 16r10 34r10
+X 2 actuadorescritorp.adb
+13p22 r(19|8W19)
+13p42 entrada(20|13W19)
+X 3 ada.ads
+16K9*Ada 1|2r6 3r5 4r6 5r5 18r37 21r16 22r27 24r21 24r46 25r14 25r39 2|10r10
+. 32r36 36r10 3|19e8
+X 9 a-reatim.ads
+39K13*Real_Time 1|2w10 3r9 4r10 5r9 18r41 21r20 22r31 24r25 24r50 25r18 25r43
+. 2|10r14 32r40 36r14 9|139e18
+41O9*Time 1|21r30
+46O9*Time_Span 1|24r35 25r28
+53V13*Clock{41O9} 2|9s20
+55V13*"+"{41O9} 2|9s25 35s28
+56V13*"+"{41O9} 2|29s26
+85V13*Milliseconds{46O9} 1|24s60 25s53
+X 10 a-rttiev.ads
+38K23*Timing_Events 1|4w20 18r51 22r41 2|10r24 32r50 36r24 10|81e32
+40R9*Timing_Event 1|18r65 22r55 2|32r64 10|75e14
+45U14*Set_Handler 2|10s38 36s38
+X 19 reactorp.ads
+7K9*ReactorP 1|7w6 8r5 19|15e13
+8W19*Reactor 1|17r32 2|13r32 19|14e15
+10U17 escribir 2|27s15
+11V16 leerTemp{integer} 2|18s19
+X 20 sensorlectorp.ads
+12K9*SensorLectorP 1|9w6 10r5 20|33e18
+13W19*SensorLector 1|17r57 2|13r57 20|32e20
+X 21 system.ads
+37K9*System 1|1w6 15r33 21|196e11
+97I12*Any_Priority{integer}
+99I12*Interrupt_Priority{97I12} 1|15r40
+X 50 text_io.ads
+24K9*Text_IO=24:29 1|6w6
+

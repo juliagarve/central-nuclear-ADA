@@ -1,0 +1,184 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatA
+P SS ZX
+R nnnnnnnvnvnnnnnnnnvnnvnvnvvnvnnvnvvnnnnnnnvnvnnnnvnvnnnnnnvnvvnnnnvnnnv2nv1nv1+nnnv1+nn
+
+U main%b		main.adb		c21ce1b6 NE OO SU
+W actuadorescritorp%s	actuadorescritorp.adb	actuadorescritorp.ali
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W reactorp%s		reactorp.adb		reactorp.ali
+W sensorlectorp%s	sensorlectorp.adb	sensorlectorp.ali
+W system%s		system.ads		system.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D actuadorescritorp.ads	20221213010018 87bd0634
+D ada.ads		20110428140902 3ffc8e18
+D a-calend.ads		20110428140858 343c83dd
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-numeri.ads		20110428140902 bb51c45a
+D a-nudira.ads		20110428140902 2fef2912
+D a-nudira.adb		20110428140902 e57ce22b
+D a-reatim.ads		20110428140902 63f07669
+D a-retide.ads		20110428140902 081cdaa4
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D main.adb		20221213010622 b5328250
+D reactorp.ads		20221205191854 6cfcb815
+D sensorlectorp.ads	20221213005348 3f7f360d
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-conca4.ads		20110428140906 025fe3be
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgint.ads		20110428140906 02dbe0c2
+D s-imguns.ads		20110428140906 9ff43cf7
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-rannum.ads		20110428140908 5eb33f0a
+D s-rannum.adb		20110428140908 67756f39
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-tpoben.ads		20110428140908 e8374469
+D s-tpobop.ads		20110428140908 5f548bb3
+D s-tasren.ads		20110428140908 86fa7427
+D s-tassta.ads		20110428140908 e88ef99e
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-valuns.ads		20110428140908 10a8ed3b
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 actuadorescritorp.ads
+12K9*ActuadorEscritorP 30e22 22|13w6 14r5
+13W19*ActuadorEscritor 29e24 22|20r17 23r17 26r17 84r38
+16U17 iniciar 22|33s11 35s11 37s11
+17Y13 escribir 22|89s20
+X 2 ada.ads
+16K9*Ada 19e8 22|2r6 3r6 5r5 6r5 7r6 8r5 15r6 95r11 96r17 96r42 99r32
+X 3 a-calend.ads
+36K13*Calendar 358e17 22|7w10 8r9
+X 8 a-numeri.ads
+16K13*Numerics 32e17 22|15r10 99r36
+X 9 a-nudira.ads
+44k22*Discrete_Random 73e33 22|15w19 99r45
+48R9 Generator 22|100r24[99]
+50V13 Random{integer} 22|106s26[99]
+53U14 Reset<38|91p14> 22|105s20[99]
+X 10 a-nudira.adb
+51V16 Random[38|74]{integer} 39|394b13[22|99]
+X 11 a-reatim.ads
+39K13*Real_Time 139e18 22|2w10 3r10 5r9 6r9 95r15 96r21 96r46
+41O9*Time 22|95r25
+46O9*Time_Span 22|96r31
+53V13*Clock{41O9} 22|103s12
+55V13*"+"{41O9} 22|103s17 115s18
+85V13*Milliseconds{46O9} 22|96s56
+X 13 a-rttiev.ads
+38K23*Timing_Events 81e32 22|3w20 6r19
+X 16 a-textio.ads
+263U14*Put_Line 22|53s24 55s24 57s24 73s18
+X 18 interfac.ads
+57M9*Unsigned_32
+60M9*Unsigned_64
+X 22 main.adb
+17U11*Main 17b11 129l5 129t9
+19w4 sl1{24|13W19} 32r7 119m15 119r15 120m40 120r40
+20w4 ae1{1|13W19} 33r7 120m17 120r17
+21w4 r1{23|8W19} 119m27 119r27 120m29 120r29 125m65 125r65
+22w4 sl2{24|13W19} 34r7 121m15 121r15 122m40 122r40
+23w4 ae2{1|13W19} 35r7 122m17 122r17
+24w4 r2{23|8W19} 121m27 121r27 122m29 122r29 125m76 125r76
+25w4 sl3{24|13W19} 36r7 123m15 123r15 124m40 124r40
+26w4 ae3{1|13W19} 37r7 124m17 124r17
+27w4 r3{23|8W19} 123m27 123r27 124m29 124r29 125m87 125r87
+29T14 Iniciador 30b14 38l8 38t17 39r8
+39t4 Ini{29T14}
+41T14 Coordinador 41d26 43l8 43e19 44b14 61l8 61t19 63r7 64r7 65r7
+41i26 numReactor{integer} 52r16 54r19
+42Y13 mensaje 48b20 50l17 50t24 75s16 77s16 79s16
+63t4 c1{41T14} 75r13
+64t4 c2{41T14} 77r13
+65t4 c3{41T14} 79r13
+67T14 Lectura 67d22 67d51 67d69 68b14 82l8 82t15 119r7 121r7 123r7
+67i69 numReactor{integer} 73r38 74r13 76r16
+69i7 datoEntrada{integer} 72m23 72r23 73r79
+84T14 Escritura 84d24 84d56 84d74 85b14 91l8 91t17 120r7 122r7 124r7
+93T14 AlgoritmoFuncionamientoTemperatura 93d49 93d68 93d87 94b14 117l8 117t42
+. 125r30
+95o7 sig{11|41O9} 103m7 114r22 115m10 115r15
+96o7 intervalo{11|46O9} 103r18 115r19
+97i7 datoSalida{integer} 108r25 110r25 112r25
+98I15 aleatorioReactor{integer} 99r61
+99K15 Aleatorio[9|44] 100r14 105r10 106r16
+100r7 seed{9|48R9[99]} 105r26 106r33
+101i7 temp{integer} 106m10 107r13 109r16
+119t4 l1{67T14}
+120t4 e1{84T14}
+121t4 l2{67T14}
+122t4 e2{84T14}
+123t4 l3{67T14}
+124t4 e3{84T14}
+125t4 funcionamientoTemperatura{93T14}
+X 23 reactorp.ads
+7K9*ReactorP 22|11w6 12r5 23|15e13
+8W19*Reactor 22|21r15 24r15 27r15 67r60 84r65 93r59 93r78 93r97 23|14e15
+10U17 escribir 22|108s16 110s16 112s16
+X 24 sensorlectorp.ads
+12K9*SensorLectorP 22|9w6 10r5 24|33e18
+13W19*SensorLector 22|19r16 22r16 25r16 67r37 84r89 24|32e20
+17U17 iniciar 22|32s11 34s11 36s11
+18Y13 leer 22|72s18
+X 25 system.ads
+37K9*System 22|4w6 25|196e11
+X 38 s-rannum.ads
+66V13*Random{18|57M9} 39|223i21
+67V13*Random{18|60M9} 39|223i21
+X 62 text_io.ads
+24K9*Text_IO=24:29 22|1w6 53r16 55r16 57r16 73r10
+
